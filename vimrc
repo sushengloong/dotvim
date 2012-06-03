@@ -33,7 +33,8 @@ colorscheme slate
 map <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>i
 
-map <C-B> :CtrlPBuffer<CR>
+map <C-b> :CtrlPBuffer<CR>
+map <C-n> :new<CR> 
 
 " html2haml, install 'rvm wrapper ruby-1.9.2-p290 vim html2haml'
 " :vmap <leader>h :!~/.rvm/bin/vim_html2haml<cr>
