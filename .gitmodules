@@ -34,3 +34,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/nyancat-vim"]
+	path = bundle/nyancat-vim
+	url = https://github.com/koron/nyancat-vim.git
