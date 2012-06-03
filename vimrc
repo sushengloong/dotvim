@@ -18,7 +18,7 @@ set shiftwidth=2
 set smarttab
 set autoindent
 set expandtab
-set history=100
+set history=500
 set backspace=indent,eol,start
 set ignorecase
 set smartcase
@@ -28,5 +28,10 @@ set hlsearch
 set background=dark
 colorscheme slate
 
-" html2haml, install by running 'rvm wrapper ruby-1.9.2-p290 vim html2haml'
+" map save to ctrl-s, write the following in .bashrc
+" stty stop ''
+map <C-s> :w<CR>
+imap <C-s> <Esc>:w<CR>i
+
+" html2haml, install 'rvm wrapper ruby-1.9.2-p290 vim html2haml'
 " :vmap <leader>h :!~/.rvm/bin/vim_html2haml<cr>
