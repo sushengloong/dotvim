@@ -21,6 +21,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'vim-scripts/EasyGrep'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Raimondi/delimitMate'
 
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
