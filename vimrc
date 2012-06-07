@@ -1,7 +1,28 @@
 set nocompatible
+filetype off
 
-call pathogen#infect()
-call pathogen#helptags()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-surround'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'kien/ctrlp.vim'
+Bundle 'ervandew/supertab'
+Bundle 'tomtom/tcomment_vim'
+
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'groenewege/vim-less'
+
+Bundle 'vim-scripts/matrix.vim--Yang'
+Bundle 'koron/nyancat-vim'
+
 syntax on
 filetype plugin indent on
 
