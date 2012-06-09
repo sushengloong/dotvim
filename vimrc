@@ -100,7 +100,7 @@ let g:ctrlp_map = '<leader>p'
 nnoremap <leader>b :CtrlPBuffer<CR>
 
 " type <leader><leader> to trigger easy motion
-let g:EasyMotion_leader_key = '<Leader>'
+let g:EasyMotion_leader_key = '<leader><leader>'
 
 " Edit and source vimrc
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
