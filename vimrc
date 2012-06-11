@@ -22,6 +22,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'vim-scripts/EasyGrep'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Raimondi/delimitMate'
+Bundle 'tsaleh/vim-matchit'
 
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
