@@ -116,3 +116,12 @@ vmap <C-Down> ]egv
 
 " Remap tagbar toggle
 nnoremap <leader>t :TagbarToggle<CR>
+
+" Maps autocomplete to tab
+imap <Tab> <C-N>
+
+imap <C-L> <Space>=><Space>
+
+" Edit routes and schema in Rails app
+command! Rroutes :e config/routes.rb
+command! Rschema :e db/schema.rb
