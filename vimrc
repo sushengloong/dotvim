@@ -73,14 +73,14 @@ let g:mapleader = ","
 nnoremap ; :
 
 " Be a man, do the right thing!
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+nnoremap <up> :echo "Be a man. Do the right thing. Use HJKL!"<cr>
+nnoremap <down> :echo "Be a man. Do the right thing. Use HJKL!"<cr>
+nnoremap <left> :echo "Be a man. Do the right thing. Use HJKL!"<cr>
+nnoremap <right> :echo "Be a man. Do the right thing. Use HJKL!"<cr>
+inoremap <up> <Esc>:echo "Be a man. Do the right thing. Use HJKL!"<cr>
+inoremap <down> <Esc>:echo "Be a man. Do the right thing. Use HJKL!"<cr>
+inoremap <left> <Esc>:echo "Be a man. Do the right thing. Use HJKL!"<cr>
+inoremap <right> <Esc>:echo "Be a man. Do the right thing. Use HJKL!"<cr>
 nnoremap j gj
 nnoremap k gk
 
