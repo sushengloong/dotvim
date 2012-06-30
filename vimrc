@@ -93,12 +93,6 @@ nnoremap <C-l> <C-w>l
 " Clear search
 nnoremap <leader><space> :noh<cr>
 
-" map save to ctrl-s, write the following in .bashrc
-" stty stop ''
-nnoremap <C-n> :new<CR> 
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>i
-
 " remap some CtrlP keys
 let g:ctrlp_map = '<leader>p'
 nnoremap <leader>b :CtrlPBuffer<CR>
