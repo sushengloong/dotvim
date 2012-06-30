@@ -30,6 +30,9 @@ Bundle 'groenewege/vim-less'
 Bundle 'vim-scripts/matrix.vim--Yang'
 Bundle 'koron/nyancat-vim'
 
+" Railscasts theme
+Bundle 'vim-scripts/Railscasts-Theme-GUIand256color'
+
 syntax on
 filetype plugin indent on
 
@@ -57,7 +60,7 @@ set incsearch
 set hlsearch
 
 set background=dark
-colorscheme slate
+colorscheme railscasts
 
 " good for my fingers
 inoremap jj <ESC>
