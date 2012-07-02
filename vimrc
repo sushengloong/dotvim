@@ -114,6 +114,9 @@ vmap <C-Down> ]egv
 " Remap tagbar toggle
 nnoremap <leader>t :TagbarToggle<CR>
 
+" Remap NERDTree toggle
+nnoremap <leader>n :NERDTreeToggle<CR>
+
 " Maps autocomplete to tab
 imap <Tab> <C-N>
 
