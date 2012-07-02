@@ -122,3 +122,14 @@ imap <C-L> <Space>=><Space>
 " Edit routes and schema in Rails app
 command! Rroutes :e config/routes.rb
 command! Rschema :e db/schema.rb
+
+" Remap some tabs commands
+nnoremap <leader>te :tabe<CR>
+nnoremap <leader>tc :tabclose<CR>
+nnoremap <leader>tn :tabnext<CR>
+nnoremap <leader>tp :tabprev<CR>
+
+" Remap some rake commands
+nnoremap <leader>rr :Rake routes<CR>
+nnoremap <leader>rsss :Rake sunspot:solr:start<CR>
+nnoremap <leader>rsr :Rake sunspot:reindex<CR>
