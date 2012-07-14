@@ -128,6 +128,10 @@ imap <Tab> <C-N>
 
 imap <C-L> <Space>=><Space>
 
+" Remap tcomment toggle
+nmap <leader>c gcc
+vmap <leader>c gcc
+
 " Edit routes and schema in Rails app
 command! Rroutes :e config/routes.rb
 command! Rschema :e db/schema.rb
