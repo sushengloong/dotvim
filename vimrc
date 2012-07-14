@@ -105,16 +105,17 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Bubble single lines, remap unimpaired key
-nmap <C-K> [e
-nmap <C-J> ]e
-nmap <C-H> <<
-nmap <C-L> >>
+" Commented out due to conflict with windows navigation shortcuts
+"nmap <C-k> [e
+"nmap <C-j> ]e
+"nmap <C-h> <<
+"nmap <C-l> >>
 
 " Bubble multiple lines, remap unimpaired key
-vmap <C-K> [egv
-vmap <C-J> ]egv
-vmap <C-H> <gv
-vmap <C-L> >gv
+vmap <C-k> [egv
+vmap <C-j> ]egv
+vmap <C-h> <gv
+vmap <C-l> >gv
 
 " Remap tagbar toggle
 nnoremap <leader>t :TagbarToggle<CR>
