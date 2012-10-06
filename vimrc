@@ -24,6 +24,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Raimondi/delimitMate'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-scripts/ZoomWin'
+Bundle 'mileszs/ack.vim'
 
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
@@ -135,6 +136,9 @@ vmap <leader>c gcc
 
 " Remap ZoomWin
 nnoremap <leader>zw :ZoomWin<CR>
+
+" Remap Ack
+nnoremap <leader>a :Ack!<space>
 
 " Edit routes and schema in Rails app
 command! Rroutes :e config/routes.rb
