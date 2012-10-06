@@ -140,6 +140,10 @@ nnoremap <leader>zw :ZoomWin<CR>
 " Remap Ack
 nnoremap <leader>a :Ack!<space>
 
+" Regenerate tags
+map <leader>rt :!ctags --extra=+f --languages=-javascript --exclude=.git  --exclude=log -R * `bundle show rails`/../*<CR><C-M>"
+"map <leader>rt :!ctags --extra=+f --languages=-javascript --exclude=.git --exclude=log -R * `rvm gemdir`/gems/* `rvm gemdir`/bundler/gems/*<CR><C-M>
+
 " Edit routes and schema in Rails app
 command! Rroutes :e config/routes.rb
 command! Rschema :e db/schema.rb
