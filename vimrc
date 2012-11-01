@@ -125,8 +125,8 @@ nnoremap <leader>t :TagbarToggle<CR>
 " Remap NERDTree toggle
 nnoremap <leader>n :NERDTreeToggle<CR>
 
-" Maps autocomplete to tab
-imap <Tab> <C-N>
+" Makes autocomplete easier
+imap <Tab> <C-P>
 
 imap <C-L> <Space>=><Space>
 
