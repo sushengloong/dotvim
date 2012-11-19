@@ -74,6 +74,11 @@ let g:mapleader = ","
 " Save one keystroke
 nnoremap ; :
 
+" Remap backslash to repeat forward find
+nnoremap \ ;
+" Remap pipe to repeat backward find
+nnoremap \| ,
+
 " Be a man, do the right thing!
 nnoremap <up> :echo "Be a man. Do the right thing. Use HJKL!"<cr>
 nnoremap <down> :echo "Be a man. Do the right thing. Use HJKL!"<cr>
