@@ -25,6 +25,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-scripts/ZoomWin'
 Bundle 'mileszs/ack.vim'
+Bundle 'sjl/gundo.vim'
 
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
@@ -163,3 +164,6 @@ nnoremap <leader>tp :tabprev<CR>
 nnoremap <leader>rr :Rake routes<CR>
 nnoremap <leader>rsss :Rake sunspot:solr:start<CR>
 nnoremap <leader>rsr :Rake sunspot:reindex<CR>
+
+" Map Gundo key (need to be compiled with python support)
+nnoremap <leader>u :GundoToggle<CR>
