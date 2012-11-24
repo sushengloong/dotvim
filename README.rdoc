@@ -1,4 +1,7 @@
-=== Sheng-Loong Su's dot Vim files
+=== Sheng-Loong Su's dot Vim files (DEPRECATED)
+
+This repository is deprecated and the vimrc versioning has been subsumed into
+my dotfiles repository at https://github.com/sushengloong/dotfiles
 
 Vim is awesome!
 
